@@ -1,5 +1,5 @@
-import 'package:audio_widgets/src/painters/slider/default_audio_slider_painter_constants.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_audio_widgets/src/painters/slider/default_audio_slider_painter_constants.dart';
 
 /// Draws notches and labels for a vertical slider.
 void drawSliderNotchesVertical(

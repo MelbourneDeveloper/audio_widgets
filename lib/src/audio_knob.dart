@@ -1,6 +1,6 @@
-import 'package:audio_widgets/audio_widgets.dart';
-import 'package:audio_widgets/src/painters/knob/default_audio_knob_painter.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_audio_widgets/flutter_audio_widgets.dart';
+import 'package:flutter_audio_widgets/src/painters/knob/default_audio_knob_painter.dart';
 
 /// A compact knob control for audio applications.
 ///

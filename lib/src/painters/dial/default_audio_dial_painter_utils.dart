@@ -1,7 +1,7 @@
 import 'dart:math' as math;
 
-import 'package:audio_widgets/src/painters/dial/default_audio_dial_painter_constants.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_audio_widgets/src/painters/dial/default_audio_dial_painter_constants.dart';
 
 /// Draws an outer glow ring around the dial for visual enhancement.
 /// 

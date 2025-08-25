@@ -1,5 +1,5 @@
-import 'package:audio_widgets/audio_widgets.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_audio_widgets/flutter_audio_widgets.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 import 'custom_test_painters.dart';

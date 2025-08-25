@@ -1,7 +1,7 @@
 import 'dart:math' as math;
 
-import 'package:audio_widgets/audio_widgets.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_audio_widgets/flutter_audio_widgets.dart';
 
 /// Default painter implementation for [AudioDial] widgets.
 class DefaultAudioDialPainter extends CustomPainter {

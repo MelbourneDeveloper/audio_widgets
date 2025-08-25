@@ -1,10 +1,10 @@
-import 'package:audio_widgets_example/app_root.dart';
-import 'package:audio_widgets_example/digital_knob_painter.dart';
-import 'package:audio_widgets_example/led_ring_knob_painter.dart';
-import 'package:audio_widgets_example/metallic_knob_painter.dart';
-import 'package:audio_widgets_example/neon_glow_knob_painter.dart';
+import 'package:flutter_audio_widgets_example/app_root.dart';
+import 'package:flutter_audio_widgets_example/digital_knob_painter.dart';
+import 'package:flutter_audio_widgets_example/led_ring_knob_painter.dart';
+import 'package:flutter_audio_widgets_example/metallic_knob_painter.dart';
+import 'package:flutter_audio_widgets_example/neon_glow_knob_painter.dart';
 import 'package:flutter/material.dart';
-import 'package:audio_widgets/audio_widgets.dart';
+import 'package:flutter_audio_widgets/flutter_audio_widgets.dart';
 
 void main() {
   runApp(const AppRoot());
@@ -51,7 +51,7 @@ class _AudioWidgetDemoState extends State<AudioWidgetDemo>
           child: Column(
             children: [
               const Text(
-                'audio_widgets',
+                'flutter_audio_widgets',
                 style: TextStyle(
                   fontSize: 28,
                   fontWeight: FontWeight.w700,

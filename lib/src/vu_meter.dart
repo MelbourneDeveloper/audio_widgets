@@ -1,6 +1,6 @@
-import 'package:audio_widgets/src/audio_widget_shared.dart';
-import 'package:audio_widgets/src/painters/vu_meter/default_vu_meter_painter.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_audio_widgets/src/audio_widget_shared.dart';
+import 'package:flutter_audio_widgets/src/painters/vu_meter/default_vu_meter_painter.dart';
 
 /// A VU (Volume Unit) meter for displaying audio levels.
 /// 

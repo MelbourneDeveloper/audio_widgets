@@ -1,8 +1,8 @@
 import 'dart:math' as math;
 
-import 'package:audio_widgets/src/shared/audio_widget_extensions.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter_audio_widgets/src/shared/audio_widget_extensions.dart';
 
 /// Handles the start of a pan gesture for audio widgets.
 /// 

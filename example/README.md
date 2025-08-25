@@ -1,4 +1,4 @@
-# audio_widgets_example
+# flutter_audio_widgets_example
 
 A new Flutter project.
 

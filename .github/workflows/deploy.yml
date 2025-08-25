@@ -1,4 +1,4 @@
-name: Deploy audio_widgets Sample to GitHub Pages
+name: Deploy flutter_audio_widgets Sample to GitHub Pages
 
 on:
   push:
@@ -31,7 +31,7 @@ jobs:
       - name: Build web
         run: |
           cd example
-          flutter build web --wasm --base-href /audio_widgets/
+          flutter build web --wasm --base-href /flutter_audio_widgets/
 
       - name: Setup Pages
         uses: actions/configure-pages@v4

@@ -1,7 +1,7 @@
 import 'dart:math' as math;
 
-import 'package:audio_widgets/src/audio_widget_shared.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_audio_widgets/src/audio_widget_shared.dart';
 
 /// A custom painter that renders an audio knob widget.
 class DefaultAudioKnobPainter extends CustomPainter {

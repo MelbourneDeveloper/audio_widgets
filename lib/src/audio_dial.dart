@@ -1,6 +1,6 @@
-import 'package:audio_widgets/src/audio_widget_shared.dart';
-import 'package:audio_widgets/src/painters/dial/default_audio_dial_painter.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_audio_widgets/src/audio_widget_shared.dart';
+import 'package:flutter_audio_widgets/src/painters/dial/default_audio_dial_painter.dart';
 
 /// A circular dial control for audio applications.
 /// 

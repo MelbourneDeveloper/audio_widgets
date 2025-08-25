@@ -1,4 +1,4 @@
-name: audio_widgets_example
+name: flutter_audio_widgets_example
 description: "A new Flutter project."
 
 publish_to: 'none' 
@@ -14,7 +14,7 @@ dependencies:
   flutter:
     sdk: flutter
   
-  audio_widgets:
+  flutter_audio_widgets:
     path: ..
 
   # The following adds the Cupertino Icons font to your application.

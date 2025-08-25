@@ -1,5 +1,5 @@
-import 'package:audio_widgets/src/audio_widget_shared.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_audio_widgets/src/audio_widget_shared.dart';
 
 /// A custom painter that renders a VU meter with left and right channels.
 class DefaultVUMeterPainter extends CustomPainter {

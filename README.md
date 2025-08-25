@@ -1,16 +1,16 @@
-# Audio Widgets
+# Flutter Audio Widgets
 
 Professional audio controls for Flutter. Create stunning audio interfaces with smooth, interactive widgets inspired by high-end audio equipment. Perfect for virtual instruments (VSTs)
 
 ![Example App](Example.png) 
-Try the [live sample here](https://melbournedeveloper.github.io/audio_widgets/)
+Try the [live sample here](https://melbournedeveloper.github.io/flutter_audio_widgets/)
 
 Coming soon... A full Steinberg VST3 Bridge SDK for Flutter. Watch this space!
 
 ## Usage
 
 ```dart
-import 'package:audio_widgets/audio_widgets.dart';
+import 'package:flutter_audio_widgets/audio_widgets.dart';
 
 // Circular dial
 AudioDial(

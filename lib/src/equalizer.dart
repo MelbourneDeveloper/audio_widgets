@@ -1,6 +1,6 @@
-import 'package:audio_widgets/src/audio_slider.dart';
-import 'package:audio_widgets/src/audio_widget_shared.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_audio_widgets/src/audio_slider.dart';
+import 'package:flutter_audio_widgets/src/audio_widget_shared.dart';
 
 /// A multi-band equalizer control for audio applications.
 /// 

@@ -1,6 +1,6 @@
-import 'package:audio_widgets/src/shared/audio_widget_extensions.dart';
-import 'package:audio_widgets/src/shared/audio_widget_types.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_audio_widgets/src/shared/audio_widget_extensions.dart';
+import 'package:flutter_audio_widgets/src/shared/audio_widget_types.dart';
 
 /// Creates a Paint object with a linear gradient shader.
 Paint createGradientPaint({

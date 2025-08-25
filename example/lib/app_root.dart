@@ -1,4 +1,4 @@
-import 'package:audio_widgets_example/main.dart';
+import 'package:flutter_audio_widgets_example/main.dart';
 import 'package:flutter/material.dart';
 
 class AppRoot extends StatelessWidget {
