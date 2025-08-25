@@ -1,6 +1,7 @@
 name: audio_widgets
 description: "Professional grade gauges and controls for Flutter audio applications and VSTs"
 version: 0.1.0
+repository: https://github.com/MelbourneDeveloper/audio_widgets
 
 environment:
   sdk: ^3.8.1

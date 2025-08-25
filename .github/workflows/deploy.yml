@@ -20,7 +20,7 @@ jobs:
       - name: Setup Flutter
         uses: subosito/flutter-action@v2
         with:
-          flutter-version: '3.24.0'
+          flutter-version: '3.32.8'
           channel: 'stable'
 
       - name: Get dependencies
@@ -31,7 +31,7 @@ jobs:
       - name: Build web
         run: |
           cd example
-          flutter build web --web-renderer canvaskit --base-href /audio_widgets/
+          flutter build web --wasm --base-href /audio_widgets/
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
