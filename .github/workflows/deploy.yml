@@ -1,9 +1,8 @@
-name: Deploy Flutter Web to GitHub Pages
+name: Deploy audio_widgets Sample to GitHub Pages
 
 on:
   push:
-    branches:
-      - main
+    branches: [main]
   workflow_dispatch:
 
 permissions:
@@ -11,45 +10,37 @@ permissions:
   pages: write
   id-token: write
 
-concurrency:
-  group: pages
-  cancel-in-progress: false
-
 jobs:
-  build:
+  build-and-deploy:
     runs-on: ubuntu-latest
-    
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v4
-        
+
       - name: Setup Flutter
         uses: subosito/flutter-action@v2
         with:
           flutter-version: '3.24.0'
           channel: 'stable'
-          
+
       - name: Get dependencies
-        working-directory: example
-        run: flutter pub get
-        
+        run: |
+          cd example
+          flutter pub get
+
       - name: Build web
-        working-directory: example
-        run: flutter build web --web-renderer canvaskit --base-href /audio_widgets/
-        
+        run: |
+          cd example
+          flutter build web --web-renderer canvaskit --base-href /audio_widgets/
+
       - name: Setup Pages
-        uses: actions/configure-pages@v5
-        
+        uses: actions/configure-pages@v4
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: example/build/web
+          path: 'example/build/web'
 
-  deploy:
-    environment: github-pages
-    runs-on: ubuntu-latest
-    needs: build
-    steps:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
