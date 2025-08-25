@@ -2,7 +2,7 @@
 
 Professional audio controls for Flutter. Create stunning audio interfaces with smooth, interactive widgets inspired by high-end audio equipment. Perfect for virtual instruments (VSTs)
 
-![Example App](Example.png) 
+![Example App](https://github.com/MelbourneDeveloper/flutter_audio_widgets/raw/main/Example.png) 
 Try the [live sample here](https://melbournedeveloper.github.io/flutter_audio_widgets/)
 
 Coming soon... A full Steinberg VST3 Bridge SDK for Flutter. Watch this space!
