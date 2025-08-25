@@ -1,0 +1,22 @@
+name: audio_widgets
+description: "Professional grade gauges and controls for Flutter audio applications and VSTs"
+version: 0.1.0
+
+environment:
+  sdk: ^3.8.1
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  austerity: ^1.2.0
+  flutter_lints: ^5.0.0
+  flutter_test:
+    sdk: flutter
+  integration_test:
+    sdk: flutter
+
+flutter:
+
